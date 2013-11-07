@@ -12,17 +12,17 @@ return array(
 	/**
 	 * Path to you wsdl file
 	 */
-	'wsdl' => '/home/twinster-creative/domains/playground.twinster-creative.com/app/storage/wsdl/enterprise.wsdl.xml',
+	'wsdl' => '',
 
 	/**
 	 * Username (emailaddress)
 	 */
-	'username' => 'r.visser@citybox.nl', 
+	'username' => '', 
 
 	/**
 	 * Password
 	 */
-	'password' => 'S@lesforce04',
+	'password' => '',
 
 	/**
 	 * Security Token
