@@ -15,17 +15,17 @@ return array(
 	'wsdl' => '',
 
 	/**
-	 * Username (emailaddress)
+	 * Your Salesforce Username (emailaddress)
 	 */
 	'username' => '', 
 
 	/**
-	 * Password
+	 * Your Salesforce Password
 	 */
 	'password' => '',
 
 	/**
-	 * Security Token
+	 * Security Token: not required
 	 */
 	'token' => ''	
 
