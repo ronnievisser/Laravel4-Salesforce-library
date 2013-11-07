@@ -3,7 +3,7 @@
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use \Config;
-use \Phpforce\SoapClient\ClientBuilder
+use \Phpforce\SoapClient\ClientBuilder;
 
 class SalesforceServiceProvider extends ServiceProvider {
 
@@ -44,7 +44,7 @@ class SalesforceServiceProvider extends ServiceProvider {
 			  	$token
 			);
 
-			$client = $builder->build();
+			return $builder->build();
 	    });
 
     	// Shortcut so developers don't need to add an Alias in app/config/app.php
