@@ -1,4 +1,12 @@
 Laravel4-Salesforce-library
 ===========================
 
-Laravel 4 port of the PHPForce soap-client library
+## Installation
+
+Install this package through Composer. To your `composer.json` file, add:
+
+```js
+"require-dev": {
+	"Ronster/Salesforce": "dev-master"
+}
+```
