@@ -10,7 +10,7 @@ return array(
 	*/
 
 	/**
-	 * Path to you wsdl file
+	 * Absolute path to your WSDL file
 	 */
 	'wsdl' => '',
 
