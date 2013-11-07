@@ -34,5 +34,5 @@ This package is a laravel 4 port of the PHPforce/soap-client library. Instructio
 ## Example
 ```php
 Salesforce::query('select Name, SystemModstamp from Account limit 5');
-)
+
 ```
