@@ -30,3 +30,9 @@ Run `php artisan config:publish Ronster/Salesforce` to publish the package confi
 ## Useage
 
 This package is a laravel 4 port of the PHPforce/soap-client library. Instructions can be found here: [PHPForce/soap-client](https://github.com/phpforce/soap-client)
+
+## Example
+```php
+Salesforce::query('select Name, SystemModstamp from Account limit 5');
+)
+```
