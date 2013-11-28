@@ -25,7 +25,7 @@ Finally, add the service provider to `app/config/app.php`, within the `providers
 
 ## Configuration
 
-Run `php artisan config:publish Ronster/Salesforce` to publish the package config file. Add your username, password, security token(optional) and the absolute path to your enterprise/partner WSDL file which can be obtained from your Salesforce Org.
+Run `php artisan config:publish ronster/salesforce` to publish the package config file. Add your username, password, security token(optional) and the absolute path to your enterprise/partner WSDL file which can be obtained from your Salesforce Org.
 
 ## Usage
 
